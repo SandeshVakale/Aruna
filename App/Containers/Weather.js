@@ -1,17 +1,18 @@
 import React, { Component } from 'react'
 import { View, Text } from 'react-native'
-import styles from './Styles/WeatherComponentStyle'
 import { connect } from 'react-redux'
+
+// Styles
+import styles from './Styles/WeatherStyle'
 import DetailActions from '../Redux/DetailRedux'
 
-export class WeatherComponent extends Component {
+class Weather extends Component {
   componentDidMount () {
     const { data, detailRequest } = this.props
     detailRequest(data.woeid)
   }
   render () {
-    const { data, detail } = this.props
-    console.log('detail', detail.data)
+    const { data } = this.props
     return (
       <View style={styles.container}>
         <Text style={{fontSize: 22, fontWeight: 'bold'}}>{data.title}</Text>
@@ -36,4 +37,4 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(WeatherComponent)
+export default connect(mapStateToProps, mapDispatchToProps)(Weather)
