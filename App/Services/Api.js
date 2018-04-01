@@ -2,7 +2,7 @@
 import apisauce from 'apisauce'
 
 // our "constructor"
-const create = (baseURL = 'https://api.github.com/') => {
+const create = (baseURL = 'https://www.metaweather.com/') => {
   // ------
   // STEP 1
   // ------
@@ -34,9 +34,10 @@ const create = (baseURL = 'https://api.github.com/') => {
   // Since we can't hide from that, we embrace it by getting out of the
   // way at this level.
   //
-  const getRoot = () => api.get('')
-  const getRate = () => api.get('rate_limit')
-  const getUser = (username) => api.get('search/users', {q: username})
+  const getWbyCity = ({city}) => api.get(`/api/location/search/?query=${city}`)
+  const getWbylatlong = ({lat, long}) => api.get(`/api/location/search/?lattlong=${lat},${long}`)
+  const getWbywoeid = ({woeid}) => api.get(`/api/location/${woeid}`)
+  const getWbywoeidDate = ({woeid, year, month, date}) => api.get(`/api/location/${woeid}/${year}/${month}/${date}`)
 
   // ------
   // STEP 3
@@ -52,9 +53,10 @@ const create = (baseURL = 'https://api.github.com/') => {
   //
   return {
     // a list of the API functions from step 2
-    getRoot,
-    getRate,
-    getUser
+    getWbyCity,
+    getWbylatlong,
+    getWbywoeid,
+    getWbywoeidDate
   }
 }
 

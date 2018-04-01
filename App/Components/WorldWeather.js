@@ -84,7 +84,7 @@ class WorldWeather extends React.Component {
     * Configure what will happen (if anything) when the user
     * presses your callout.
     *************************************************************/
-    
+
     // console.tron.log(location) // Reactotron
   }
 
@@ -117,4 +117,3 @@ class WorldWeather extends React.Component {
 }
 
 export default WorldWeather
-

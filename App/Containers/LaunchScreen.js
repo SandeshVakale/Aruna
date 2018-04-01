@@ -1,14 +1,24 @@
 import React, { Component } from 'react'
 import { ScrollView, Text, Image, View } from 'react-native'
+import HomeActions from '../Redux/HomeRedux'
 import DevscreensButton from '../../ignite/DevScreens/DevscreensButton.js'
 
 import { Images } from '../Themes'
 
 // Styles
 import styles from './Styles/LaunchScreenStyles'
+import { connect } from 'react-redux'
 
-export default class LaunchScreen extends Component {
+export class LaunchScreen extends Component {
+  componentDidMount () {
+    const {homeRequest} = this.props
+    homeRequest(19.0760, 72.8777)
+  }
+
   render () {
+    const {home} = this.props
+    console.log('home', home)
+
     return (
       <View style={styles.mainContainer}>
         <Image source={Images.background} style={styles.backgroundImage} resizeMode='stretch' />
@@ -30,3 +40,17 @@ export default class LaunchScreen extends Component {
     )
   }
 }
+
+const mapStateToProps = (state) => {
+  return {
+    home: state.home
+  }
+}
+
+const mapDispatchToProps = (dispatch) => {
+  return {
+    homeRequest: (lat, long) => dispatch(HomeActions.homeRequest(lat, long))
+  }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(LaunchScreen)
