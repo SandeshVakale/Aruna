@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View, Text } from 'react-native'
+import { View, Text, ActivityIndicator } from 'react-native'
 import styles from './Styles/WeatherComponentStyle'
 import { connect } from 'react-redux'
 import DetailActions from '../Redux/DetailRedux'
@@ -12,15 +12,17 @@ export class WeatherComponent extends Component {
   render () {
     const { data, detail } = this.props
     console.log('detail', detail.data)
-    return (
-      <View style={styles.container}>
-        <Text style={{fontSize: 22, fontWeight: 'bold'}}>{data.title}</Text>
-        <Text style={{fontSize: 14}}>{data.distance}</Text>
-        <Text style={{fontSize: 14}}>{data.location_type}</Text>
-        <Text style={{fontSize: 14}}>{data.latt_long}</Text>
-        <Text style={{fontSize: 14}}>{data.woeid}</Text>
-      </View>
-    )
+    if (detail.data !== null && data.woied === detail.data.woied) {
+      return (
+        <View style={styles.container}>
+          <Text style={{fontSize: 22, fontWeight: 'bold'}}>{detail.data.title}</Text>
+          <Text style={{fontSize: 14}}>{data.distance}</Text>
+          <Text style={{fontSize: 14}}>{data.location_type}</Text>
+          <Text style={{fontSize: 14}}>{data.latt_long}</Text>
+          <Text style={{fontSize: 14}}>{data.woeid}</Text>
+        </View>
+      )
+    } else return <ActivityIndicator />
   }
 }
 

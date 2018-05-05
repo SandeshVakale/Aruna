@@ -7,10 +7,6 @@ import styles from './Styles/WeatherStyle'
 import DetailActions from '../Redux/DetailRedux'
 
 class Weather extends Component {
-  componentDidMount () {
-    const { data, detailRequest } = this.props
-    detailRequest(data.woeid)
-  }
   render () {
     const { data } = this.props
     return (
