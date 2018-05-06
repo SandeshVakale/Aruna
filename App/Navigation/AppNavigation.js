@@ -1,12 +1,12 @@
 import { StackNavigator } from 'react-navigation'
-import WeatherList from '../Containers/WeatherList'
+import DetailScreen from '../Containers/DetailScreen'
 import LaunchScreen from '../Containers/LaunchScreen'
 
 import styles from './Styles/NavigationStyles'
 
 // Manifest of possible screens
 const PrimaryNav = StackNavigator({
-  WeatherList: { screen: WeatherList },
+  DetailScreen: { screen: DetailScreen },
   LaunchScreen: { screen: LaunchScreen }
 }, {
   // Default config for all screens
