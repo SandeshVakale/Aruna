@@ -3,22 +3,23 @@ import { FlatList, ActivityIndicator, Text, View } from 'react-native'
 import HomeActions from '../Redux/HomeRedux'
 import { connect } from 'react-redux'
 import DetailActions from '../Redux/DetailRedux'
-import styles from '../Components/Styles/WeatherComponentStyle'
 import WeatherComponent from '../Components/WeatherComponent'
 
 export class LaunchScreen extends Component {
   componentDidMount () {
-    const {homeRequest} = this.props
-    homeRequest(19.0760, 72.8777)
+    const {homeRequest, detailRequest} = this.props
+    homeRequest(48.792001, 2.39851)
+    detailRequest(44418)
   }
   keyExtractor = (item, index) => index
 
   render () {
-    const {home} = this.props
+    const {home, detail} = this.props
     console.log('home', home)
+    console.log('detail', detail)
 
     if (home.fetching !== true && home.data !== null && home.error === null) {
-      return (<FlatList
+      return (<FlatList style={{backgroundColor: 'lightgray'}}
         data={home.data}
         keyExtractor={this.keyExtractor}
         renderItem={({item}) => <WeatherComponent data={item} />}
