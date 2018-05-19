@@ -5,14 +5,14 @@ import { connect } from 'react-redux'
 // import YourActions from '../Redux/YourRedux'
 
 // Styles
-import styles from './Styles/HomeScreenStyle'
+import styles from './Styles/DetailScreenStyle'
 
-class HomeScreen extends Component {
+class DetailScreen extends Component {
   render () {
     return (
       <ScrollView style={styles.container}>
         <KeyboardAvoidingView behavior='position'>
-          <Text>HomeScreen</Text>
+          <Text>DetailScreen</Text>
         </KeyboardAvoidingView>
       </ScrollView>
     )
@@ -29,4 +29,4 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(HomeScreen)
+export default connect(mapStateToProps, mapDispatchToProps)(DetailScreen)
