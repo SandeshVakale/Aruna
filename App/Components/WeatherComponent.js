@@ -3,6 +3,7 @@ import { View, Text, ActivityIndicator, ImageBackground, TouchableOpacity } from
 import styles from './Styles/WeatherComponentStyle'
 import { connect } from 'react-redux'
 import DetailActions from '../Redux/DetailRedux'
+import LinearGradient from 'react-native-linear-gradient'
 
 export class WeatherComponent extends Component {
   constructor (props) {
@@ -64,11 +65,13 @@ export class WeatherComponent extends Component {
     return (
       <TouchableOpacity onPress={() => console.log('preesed')} >
         <ImageBackground source={{uri: str}} style={styles.container}>
-          <Text style={[styles.text, {fontSize: 22, fontWeight: 'bold'}]}>{this.titleCase(Object.keys(data)[1])}:- {data.title}</Text>
-          <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[0])}:- {data.distance / 1000} km Away</Text>
-          <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[2])}:- {data.location_type}</Text>
-          <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[4])}:- {data.latt_long}</Text>
-          <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[3])}:- {data.woeid}</Text>
+          <LinearGradient colors={['transparent', 'transparent', '#000']} style={[styles.container, {position: 'absolute', top: 0, bottom: 0, left: 0, right: 0}]}>
+            <Text style={[styles.text, {fontSize: 26, fontWeight: 'bold', position: 'absolute', left: 10}]}>{data.title}</Text>
+            <Text style={[styles.text, {fontSize: 20, position: 'absolute', right: 10}]}>{data.distance / 1000} km </Text>
+            {/*<Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[2])}:- {data.location_type}</Text>
+            <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[4])}:- {data.latt_long}</Text>
+            <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[3])}:- {data.woeid}</Text>*/}
+          </LinearGradient>
         </ImageBackground>
       </TouchableOpacity>
     )

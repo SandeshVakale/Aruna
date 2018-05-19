@@ -3,23 +3,18 @@ import { StyleSheet } from 'react-native'
 export default StyleSheet.create({
   container: {
     flex: 1,
-    flexDirection: 'column',
+    flexDirection: 'row',
     justifyContent: 'center',
-    alignContent: 'center',
-    alignItems: 'center',
-    padding: 10,
-    paddingVertical: 20,
-    borderColor: 'black',
-    borderRadius: 10,
-    shadowOffset: { width: 10, height: 5 },
-    shadowColor: 'black',
-    shadowOpacity: 0.5,
-    backgroundColor: 'orange'
+    alignContent: 'flex-end',
+    alignItems: 'flex-end',
+    backgroundColor: 'transparent',
+    height: 200
   },
   text: {
-    color: 'black',
     fontFamily: 'Geeza Pro',
     fontWeight: 'bold',
-    backgroundColor: 'transparent'
+    backgroundColor: 'transparent',
+    color: 'white',
+    paddingBottom: 5
   }
 })
