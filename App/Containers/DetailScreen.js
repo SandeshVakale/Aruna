@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import {View, Text, ActivityIndicator} from 'react-native'
+import {View, Text, ActivityIndicator, FlatList} from 'react-native'
 import { connect } from 'react-redux'
 
 import NavigationBar from 'react-native-navbar'
 import DetailActions from '../Redux/DetailRedux'
+import CalenderWeather from '../Components/CalenderWeather'
 
 class DetailScreen extends Component {
   componentDidMount () {
@@ -24,9 +25,11 @@ class DetailScreen extends Component {
           <NavigationBar
             title={{ title: this.props.navigation.state.params.data.title }}
             leftButton={leftButtonConfig} />
-          <View style={{ flex: 1, alignItems: 'center', alignContent: 'center', justifyContent: 'center' }}>
-            <Text>{this.props.navigation.state.params.data.woeid}</Text>
-          </View>
+            <FlatList style={{backgroundColor: 'lightgray'}}
+              data={detail.data.consolidated_weather}
+              keyExtractor={this.keyExtractor}
+              renderItem={({item}) => <CalenderWeather data={item}/>}
+            />
         </View>
       )
     } else if (detail.error !== null) {
