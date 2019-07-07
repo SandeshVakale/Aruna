@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { View, Text, ActivityIndicator, ImageBackground, TouchableOpacity } from 'react-native'
 import styles from './Styles/WeatherComponentStyle'
 import { connect } from 'react-redux'
-import DetailActions from '../Redux/DetailRedux'
-import LinearGradient from 'react-native-linear-gradient'
 
 export class WeatherComponent extends Component {
   constructor (props) {
@@ -60,18 +58,21 @@ export class WeatherComponent extends Component {
         </View>
       )
     }
+
+    const {navigate} = this.props.navigation;
+
     let str1 = this.state.dataSource
     let str = str1.status && str1.status === 404 ? 'https://www.wallpaperup.com/uploads/wallpapers/2015/12/22/866095/943406783521d1f882127ba609d531ce-500.jpg' : str1.photos[0].image.web
     return (
-      <TouchableOpacity onPress={() => console.log('preesed')} >
+      <TouchableOpacity onPress={() => navigate('DetailScreen', {data: data})} >
         <ImageBackground source={{uri: str}} style={styles.container}>
-          <LinearGradient colors={['transparent', 'transparent', '#000']} style={[styles.container, {position: 'absolute', top: 0, bottom: 0, left: 0, right: 0}]}>
-            <Text style={[styles.text, {fontSize: 26, fontWeight: 'bold', position: 'absolute', left: 10}]}>{data.title}</Text>
-            <Text style={[styles.text, {fontSize: 20, position: 'absolute', right: 10}]}>{data.distance / 1000} km </Text>
-            {/*<Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[2])}:- {data.location_type}</Text>
+          {/* <LinearGradient colors={['transparent', 'transparent', '#000']} style={[styles.container, {position: 'absolute', top: 0, bottom: 0, left: 0, right: 0}]}> */}
+          <Text style={[styles.text, {fontSize: 26, fontWeight: 'bold', position: 'absolute', left: 10}]}>{data.title}</Text>
+          <Text style={[styles.text, {fontSize: 20, position: 'absolute', right: 10}]}>{data.distance / 1000} km </Text>
+          {/* <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[2])}:- {data.location_type}</Text>
             <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[4])}:- {data.latt_long}</Text>
-            <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[3])}:- {data.woeid}</Text>*/}
-          </LinearGradient>
+            <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[3])}:- {data.woeid}</Text> */}
+          {/* </LinearGradient> */}
         </ImageBackground>
       </TouchableOpacity>
     )
@@ -80,13 +81,11 @@ export class WeatherComponent extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    detail: state.detail
   }
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    detailRequest: (woeid) => dispatch(DetailActions.detailRequest(woeid))
   }
 }
 

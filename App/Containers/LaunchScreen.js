@@ -26,7 +26,7 @@ export class LaunchScreen extends Component {
           <FlatList style={{backgroundColor: 'lightgray'}}
             data={home.data}
             keyExtractor={this.keyExtractor}
-            renderItem={({item}) => <WeatherComponent data={item} />}
+            renderItem={({item}) => <WeatherComponent data={item} {...this.props} />}
         />
         </View>
       )
