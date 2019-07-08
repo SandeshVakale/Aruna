@@ -8,7 +8,7 @@ import NavigationBar from 'react-native-navbar'
 export class LaunchScreen extends Component {
   componentDidMount () {
     const {homeRequest, detailRequest} = this.props
-    homeRequest(48.792001, 2.39851)
+    homeRequest(19.0760, 72.8777)
     detailRequest(44418)
   }
   keyExtractor = (item, index) => index
@@ -22,6 +22,7 @@ export class LaunchScreen extends Component {
       return (
         <View style={{ flex: 1, backgroundColor: '#ff9900' }}>
           <NavigationBar
+            containerStyle={{backgroundColor: 'lightgray'}}
             title={{ title: 'Aruna' }} />
           <FlatList style={{backgroundColor: 'lightgray'}}
             data={home.data}

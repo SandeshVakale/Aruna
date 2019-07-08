@@ -23,12 +23,13 @@ class DetailScreen extends Component {
       return (
         <View style={{flex: 1}}>
           <NavigationBar
+            containerStyle={{backgroundColor: 'lightgray'}}
             title={{ title: this.props.navigation.state.params.data.title }}
             leftButton={leftButtonConfig} />
-            <FlatList style={{backgroundColor: 'lightgray'}}
-              data={detail.data.consolidated_weather}
-              keyExtractor={this.keyExtractor}
-              renderItem={({item}) => <CalenderWeather data={item}/>}
+          <FlatList style={{backgroundColor: 'lightblue'}}
+            data={detail.data.consolidated_weather}
+            keyExtractor={this.keyExtractor}
+            renderItem={({item}) => <CalenderWeather data={item} />}
             />
         </View>
       )
