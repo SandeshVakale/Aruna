@@ -68,7 +68,7 @@ export class WeatherComponent extends Component {
         <ImageBackground source={{uri: str}} style={styles.container}>
           <LinearGradient colors={['transparent', 'transparent', '#000']} style={[styles.container, {position: 'absolute', top: 0, bottom: 0, left: 0, right: 0}]}>
             <Text style={[styles.text, {fontSize: 26, fontWeight: 'bold', position: 'absolute', left: 10}]}>{data.title}</Text>
-            <Text style={[styles.text, {fontSize: 20, position: 'absolute', right: 10}]}>{data.distance / 1000} km </Text>
+            {data.distance  && <Text style={[styles.text, {fontSize: 20, position: 'absolute', right: 10}]}>{data.distance / 1000} km </Text> }
             {/* <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[2])}:- {data.location_type}</Text>
             <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[4])}:- {data.latt_long}</Text>
             <Text style={[styles.text, {fontSize: 14}]}>{this.titleCase(Object.keys(data)[3])}:- {data.woeid}</Text> */}
