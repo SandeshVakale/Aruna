@@ -9,13 +9,15 @@ import { StartupTypes } from '../Redux/StartupRedux'
 import {HomeTypes} from '../Redux/HomeRedux'
 import { NetworkErrorTypes } from '../Redux/NetworkErrorRedux'
 import { DetailTypes } from '../Redux/DetailRedux'
+import { CityTypes } from '../Redux/CityRedux'
 
 /* ------------- Sagas ------------- */
 
 import { startup } from './StartupSagas'
-import {getWbylatlong} from './HomeSagas'
+import { getWbylatlong } from './HomeSagas'
 import { networkError } from './NetworkErrorSagas'
 import { getWbywoeid } from './DetailSaga'
+import { getWbyCity } from './CitySaga'
 
 /* ------------- API ------------- */
 
@@ -32,6 +34,7 @@ export default function * root () {
 
     takeEvery(NetworkErrorTypes.ERROR, networkError),
     takeLatest(HomeTypes.HOME_REQUEST, getWbylatlong, api),
-    takeEvery(DetailTypes.DETAIL_REQUEST, getWbywoeid, api)
+    takeEvery(DetailTypes.DETAIL_REQUEST, getWbywoeid, api),
+    takeLatest(CityTypes.CITY_REQUEST, getWbyCity, api)
   ])
 }

@@ -1,47 +1,44 @@
 import React, { Component } from 'react'
 import { FlatList, ActivityIndicator, Text, View } from 'react-native'
-import HomeActions from '../Redux/HomeRedux'
 import { connect } from 'react-redux'
+import CityActions from '../Redux/CityRedux'
 import WeatherComponent from '../Components/WeatherComponent'
 import NavigationBar from 'react-native-navbar'
-import Search from '../Components/SearchBox/index'
 
-export class LaunchScreen extends Component {
-  onSearch = (searchText) => {
-    const {navigate} = this.props.navigation
-    navigate('ResultScreen', {searchText: searchText})
-  }
-
+export class ResultScreen extends Component {
   componentDidMount () {
-    const {homeRequest} = this.props
-    homeRequest(19.0760, 72.8777)
+    const {cityRequest} = this.props
+    const { searchText } = this.props.navigation.state.params
+    console.log('props', searchText)
+    cityRequest(searchText)
   }
   keyExtractor = (item, index) => index
 
   render () {
-    const {home} = this.props
+    const {city} = this.props
+    let home = city
+    const leftButtonConfig = {
+      title: 'Back',
+      handler: () => this.props.navigation.goBack()
+    }
 
-    if (home.fetching !== true && home.data !== null && home.error === null) {
+    if (home.fetching !== true && home.data !== null && home.error === null && home.length !== 0) {
       return (
         <View style={{ flex: 1, backgroundColor: '#ff9900' }}>
           <NavigationBar
             containerStyle={{backgroundColor: 'lightgray'}}
-            title={{ title: 'Aruna' }} />
-          <Search ref='search_box'
-            onSearch={this.onSearch}
-            inputHeight={35}
-            contentWidth={50}
-            placeholder={'Enter City'}
-            cancelTitle={'cancel'}
-            height={50}
-            shadowVisible />
+            title={{ title: 'Result' }}
+            leftButton={leftButtonConfig} />
 
           <FlatList style={{backgroundColor: 'lightgray'}}
             data={home.data}
             keyExtractor={this.keyExtractor}
             renderItem={({item}) => <WeatherComponent data={item} {...this.props} />}
-        />
+          />
         </View>
+      )
+    } else if (home.length === 0) {
+      return (<Text> No result found for "{this.props.navigation.state.params.searchText}" </Text>
       )
     } else if (home.error !== null) {
       return (<Text> received error </Text>
@@ -55,14 +52,14 @@ export class LaunchScreen extends Component {
 
 const mapStateToProps = (state) => {
   return {
-    home: state.home
+    city: state.city
   }
 }
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    homeRequest: (lat, long) => dispatch(HomeActions.homeRequest(lat, long))
+    cityRequest: (city) => dispatch(CityActions.cityRequest(city))
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(LaunchScreen)
+export default connect(mapStateToProps, mapDispatchToProps)(ResultScreen)
