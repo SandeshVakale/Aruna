@@ -9,7 +9,6 @@ export class ResultScreen extends Component {
   componentDidMount () {
     const {cityRequest} = this.props
     const { searchText } = this.props.navigation.state.params
-    console.log('props', searchText)
     cityRequest(searchText)
   }
   keyExtractor = (item, index) => index
@@ -22,7 +21,9 @@ export class ResultScreen extends Component {
       handler: () => this.props.navigation.goBack()
     }
 
-    if (home.fetching !== true && home.data !== null && home.error === null && home.length !== 0) {
+    console.log('home.length', home.data.length)
+
+    if (home.fetching !== true && home.data !== null && home.error === null && home.data.length !== 0) {
       return (
         <View style={{ flex: 1, backgroundColor: '#ff9900' }}>
           <NavigationBar
@@ -37,11 +38,17 @@ export class ResultScreen extends Component {
           />
         </View>
       )
-    } else if (home.length === 0) {
-      return (<Text> No result found for "{this.props.navigation.state.params.searchText}" </Text>
+    } else if (home.data.length === 0) {
+      return (<View style={{flex: 1, backgroundColor: 'lightgray'}}><NavigationBar
+        containerStyle={{backgroundColor: 'lightgray'}}
+        title={{ title: 'Result' }}
+        leftButton={leftButtonConfig} /><Text style={{textAlign: 'center'}}> No result found for "{this.props.navigation.state.params.searchText}" </Text></View>
       )
     } else if (home.error !== null) {
-      return (<Text> received error </Text>
+      return (<View style={{flex: 1, backgroundColor: 'lightgray'}}><NavigationBar
+        containerStyle={{backgroundColor: 'lightgray'}}
+        title={{ title: 'Result' }}
+        leftButton={leftButtonConfig} /><Text style={{textAlign: 'center'}}> Network error </Text></View>
       )
     } else {
       return (<View style={{flex: 1, justifyContent: 'center', alignContent: 'center', alignItems: 'center'}}><ActivityIndicator /></View>

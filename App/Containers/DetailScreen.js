@@ -13,7 +13,6 @@ class DetailScreen extends Component {
   }
 
   render () {
-    console.log('{this.props.woeid}', this.props)
     const leftButtonConfig = {
       title: 'Back',
       handler: () => this.props.navigation.goBack()
