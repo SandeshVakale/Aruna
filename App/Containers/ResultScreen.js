@@ -21,8 +21,6 @@ export class ResultScreen extends Component {
       handler: () => this.props.navigation.goBack()
     }
 
-    console.log('home.length', home.data.length)
-
     if (home.fetching !== true && home.data !== null && home.error === null && home.data.length !== 0) {
       return (
         <View style={{ flex: 1, backgroundColor: '#ff9900' }}>
@@ -38,7 +36,7 @@ export class ResultScreen extends Component {
           />
         </View>
       )
-    } else if (home.data.length === 0) {
+    } else if (home.data !== null && home.data.length === 0) {
       return (<View style={{flex: 1, backgroundColor: 'lightgray'}}><NavigationBar
         containerStyle={{backgroundColor: 'lightgray'}}
         title={{ title: 'Result' }}
