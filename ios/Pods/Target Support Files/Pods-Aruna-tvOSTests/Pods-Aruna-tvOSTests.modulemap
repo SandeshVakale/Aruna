@@ -1,0 +1,6 @@
+framework module Pods_Aruna_tvOSTests {
+  umbrella header "Pods-Aruna-tvOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

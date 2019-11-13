@@ -1,0 +1,1158 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */;
+			buildPhases = (
+			);
+			dependencies = (
+				0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */,
+			);
+			name = AppCenterReactNativeShared;
+		};
+		A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = AppCenter;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		172F78CCFEC74FBBB3D0338F87C7411A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		1E773B1E0809A82E72D81DB33C866E47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */; };
+		212DC7F0B9E00CC750ADF3AE1E0BDC29 /* Pods-ArunaTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C3E7F54913F3BA31D7DFFB688C09D2 /* Pods-ArunaTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3710D1F0448ED9904647C520308A7596 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		41E8F3143537396B18C47A91948E38C1 /* Pods-Aruna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3352B86DE33CDB89336729ECF5D91769 /* Pods-Aruna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58894D7A6F46CB4C34E7E6F195A76239 /* Pods-ArunaTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0691C8A37B83EE91FBCF3294E1310510 /* Pods-ArunaTests-dummy.m */; };
+		8A45C4BCAE682680E66231E4684ABF53 /* Pods-Aruna-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB2A7449003C43DBC8346C2CA60424E /* Pods-Aruna-tvOS-dummy.m */; };
+		C63BF6F2DF2F93BAA6932DCB9FF50B14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */; };
+		CE27F025C977A15FC82A2541E30A481F /* Pods-Aruna-tvOSTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25D2BF67FB6F1637CB48AB60C377BC3E /* Pods-Aruna-tvOSTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D108C7E17E52D9879A39795FCF812FA0 /* Pods-Aruna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBCEA82BD5AF8E9F15AF088C9499A036 /* Pods-Aruna-dummy.m */; };
+		F6869A98A09EA927A80A1B09F1B24380 /* Pods-Aruna-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83A107CB3D29DD1523DA66CF1B6B0C99 /* Pods-Aruna-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAF29A78287F2664E599D90790EE6097 /* Pods-Aruna-tvOSTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 85866A936DB543AD311E6A264F32F9E8 /* Pods-Aruna-tvOSTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40E56F4380013CC4C2FFA48934191554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		50451FA643A861C555AD95535787F177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CD32458A161AF8E4BA58B4310701AB3;
+			remoteInfo = AppCenterReactNativeShared;
+		};
+		D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3282A5B2437E609EEB85861D7ECE717;
+			remoteInfo = AppCenter;
+		};
+		EA50CF3DE0F09FC0559599B6451B8252 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BA089BF5F506C67784E0740D295EED8;
+			remoteInfo = "Pods-Aruna";
+		};
+		EB39F5E5F8AC5667AE061D14AF133072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DA8697A3C66C8DFD194FA5DB6068817;
+			remoteInfo = "Pods-Aruna-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0691C8A37B83EE91FBCF3294E1310510 /* Pods-ArunaTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ArunaTests-dummy.m"; sourceTree = "<group>"; };
+		101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterReactNativeShared.framework; path = AppCenterReactNativeShared/AppCenterReactNativeShared.framework; sourceTree = "<group>"; };
+		184230D4CD0288271A6F3FC46F38F5AB /* Pods-Aruna.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aruna.release.xcconfig"; sourceTree = "<group>"; };
+		1A7D2E055449D0F5C826F2CE30EE9DD0 /* Pods-ArunaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunaTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D30FE2D260CDA341992901BDA0A0A42 /* Pods-Aruna-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aruna-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = "AppCenter-SDK-Apple/iOS/AppCenter.framework"; sourceTree = "<group>"; };
+		25D2BF67FB6F1637CB48AB60C377BC3E /* Pods-Aruna-tvOSTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aruna-tvOSTests-umbrella.h"; sourceTree = "<group>"; };
+		29329DF05E886B9DB703DCC126CFCFB2 /* Pods-Aruna-tvOSTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aruna-tvOSTests-Info.plist"; sourceTree = "<group>"; };
+		3352B86DE33CDB89336729ECF5D91769 /* Pods-Aruna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aruna-umbrella.h"; sourceTree = "<group>"; };
+		57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework"; sourceTree = "<group>"; };
+		59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenter.xcconfig; sourceTree = "<group>"; };
+		5D405155BD74FEBAED266CBB3CA0FB96 /* Pods-ArunaTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ArunaTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D6C427C337DF70C3E43EE31CAEF43A2 /* Pods-ArunaTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunaTests-Info.plist"; sourceTree = "<group>"; };
+		65ED8C8582165DFC676FF6A508BEE92B /* Pods-ArunaTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ArunaTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83A107CB3D29DD1523DA66CF1B6B0C99 /* Pods-Aruna-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Aruna-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		84955AC306598E818B69DC862C740467 /* Pods-ArunaTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ArunaTests.modulemap"; sourceTree = "<group>"; };
+		85866A936DB543AD311E6A264F32F9E8 /* Pods-Aruna-tvOSTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aruna-tvOSTests-dummy.m"; sourceTree = "<group>"; };
+		8FADD150DAEF62418215AC1822847A76 /* Pods-Aruna-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aruna-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90A2D5726501A4BCDF52DF0B84864C00 /* Pods-ArunaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ArunaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A8ABFD069EEE56FA00E018F62E659A8 /* Pods-Aruna-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aruna-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		9CD9947F6E25FCE1CBE5206404A82063 /* Pods-Aruna-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aruna-tvOS-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2BE725AFB17435718081E2B1F3CF7D /* Pods_Aruna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aruna.framework; path = "Pods-Aruna.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A320A4C30F80DBC8370BDC7B04DEE4A9 /* Pods-Aruna.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aruna.debug.xcconfig"; sourceTree = "<group>"; };
+		AA5E1011C52FCF0F6A3675325A7AA093 /* Pods-Aruna-tvOSTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aruna-tvOSTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ACBB3FF9C73101FB1E9E296E119837FB /* Pods-Aruna-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aruna-acknowledgements.plist"; sourceTree = "<group>"; };
+		B1E8B73D0C92A9C56FFC001C9E26B3F2 /* Pods-Aruna-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aruna-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B64E5CB546731BEA9A61222ECDE3F765 /* Pods-Aruna-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aruna-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AppCenterReactNativeShared.xcconfig; sourceTree = "<group>"; };
+		BBCEA82BD5AF8E9F15AF088C9499A036 /* Pods-Aruna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aruna-dummy.m"; sourceTree = "<group>"; };
+		CB3FB49FA1558340E1180E00A4534B26 /* Pods_ArunaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ArunaTests.framework; path = "Pods-ArunaTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE06A8A7133539A1CCB420B7954F80D /* Pods-Aruna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aruna.modulemap"; sourceTree = "<group>"; };
+		CE1B3B9939B72BABD055F1F78FA63DAE /* Pods-Aruna-tvOSTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Aruna-tvOSTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D06A58AE9A74F96FB8927826B96CC2D3 /* Pods-Aruna-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aruna-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2C3E7F54913F3BA31D7DFFB688C09D2 /* Pods-ArunaTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ArunaTests-umbrella.h"; sourceTree = "<group>"; };
+		DA0A5909EE9DD9245E33D07AA2CB99EB /* Pods_Aruna_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aruna_tvOS.framework; path = "Pods-Aruna-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2000CA755015F5F642D8C7ED8B0A68A /* Pods-Aruna-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aruna-tvOS.modulemap"; sourceTree = "<group>"; };
+		E8804DE89F14BF6D20D87E237358C4B0 /* Pods_Aruna_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Aruna_tvOSTests.framework; path = "Pods-Aruna-tvOSTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = "AppCenter-SDK-Apple/iOS/AppCenterCrashes.framework"; sourceTree = "<group>"; };
+		FBB2A7449003C43DBC8346C2CA60424E /* Pods-Aruna-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Aruna-tvOS-dummy.m"; sourceTree = "<group>"; };
+		FC7FCC1B9A6B5ED5840C5A9B7C34267E /* Pods-Aruna-tvOSTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Aruna-tvOSTests.modulemap"; sourceTree = "<group>"; };
+		FF97422D24F94C86C3D3F2E131BB6A67 /* Pods-Aruna-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Aruna-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FFD98AD1C9A50DF533EC4922E9EFDF5C /* Pods-Aruna-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Aruna-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403F9EB551F3FD0EA50F035548C8A37D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E773B1E0809A82E72D81DB33C866E47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B15B94599C3D24FAAAEC94562C33DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				172F78CCFEC74FBBB3D0338F87C7411A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1EF944E44E63BF78C917BFB03EE1EDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3710D1F0448ED9904647C520308A7596 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8D8C271EC44FFAC125A754439AD76E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C63BF6F2DF2F93BAA6932DCB9FF50B14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */ = {
+			isa = PBXGroup;
+			children = (
+				ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */,
+				C2F79BBE68CAC64203149AF75B3502BF /* Support Files */,
+			);
+			name = AppCenterReactNativeShared;
+			path = AppCenterReactNativeShared;
+			sourceTree = "<group>";
+		};
+		23977631E0E947775B0FF421D89FC310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259A51087349695F5B93EE5070F4CE70 /* AppCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57447041E60F2B2A34B159A833C2254C /* AppCenterAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F634C3698148A96C6334CAD125A06CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				433DAF3858A9B18587EE3C23FFD3C4AE /* Pods-Aruna */,
+				76BB76711F2796EA43075CED49A2657E /* Pods-Aruna-tvOS */,
+				88C42799811266A7F8206CDDD910FAFC /* Pods-Aruna-tvOSTests */,
+				C4BB3F5AC0A773C378962D449F7C1C4B /* Pods-ArunaTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433DAF3858A9B18587EE3C23FFD3C4AE /* Pods-Aruna */ = {
+			isa = PBXGroup;
+			children = (
+				CDE06A8A7133539A1CCB420B7954F80D /* Pods-Aruna.modulemap */,
+				B1E8B73D0C92A9C56FFC001C9E26B3F2 /* Pods-Aruna-acknowledgements.markdown */,
+				ACBB3FF9C73101FB1E9E296E119837FB /* Pods-Aruna-acknowledgements.plist */,
+				BBCEA82BD5AF8E9F15AF088C9499A036 /* Pods-Aruna-dummy.m */,
+				FFD98AD1C9A50DF533EC4922E9EFDF5C /* Pods-Aruna-Info.plist */,
+				3352B86DE33CDB89336729ECF5D91769 /* Pods-Aruna-umbrella.h */,
+				A320A4C30F80DBC8370BDC7B04DEE4A9 /* Pods-Aruna.debug.xcconfig */,
+				184230D4CD0288271A6F3FC46F38F5AB /* Pods-Aruna.release.xcconfig */,
+			);
+			name = "Pods-Aruna";
+			path = "Target Support Files/Pods-Aruna";
+			sourceTree = "<group>";
+		};
+		5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */ = {
+			isa = PBXGroup;
+			children = (
+				6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */,
+				94182EE150168D8F091F83224D20C0A4 /* Core */,
+				9B7151692B2AC286B115FA8800335CA1 /* Crashes */,
+				D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */,
+			);
+			name = AppCenter;
+			path = AppCenter;
+			sourceTree = "<group>";
+		};
+		6EDB0407D90518B826ED8A5E5A0B7C09 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2D46366A65DDC0794CEBC0FE82BB8A8A /* Frameworks */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		71BF10D9671F60B91D333968CED34958 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				B712C7D27EB7CD8F8A18A3EDE52765C0 /* Foundation.framework */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		76BB76711F2796EA43075CED49A2657E /* Pods-Aruna-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				E2000CA755015F5F642D8C7ED8B0A68A /* Pods-Aruna-tvOS.modulemap */,
+				1D30FE2D260CDA341992901BDA0A0A42 /* Pods-Aruna-tvOS-acknowledgements.markdown */,
+				9A8ABFD069EEE56FA00E018F62E659A8 /* Pods-Aruna-tvOS-acknowledgements.plist */,
+				FBB2A7449003C43DBC8346C2CA60424E /* Pods-Aruna-tvOS-dummy.m */,
+				9CD9947F6E25FCE1CBE5206404A82063 /* Pods-Aruna-tvOS-Info.plist */,
+				83A107CB3D29DD1523DA66CF1B6B0C99 /* Pods-Aruna-tvOS-umbrella.h */,
+				B64E5CB546731BEA9A61222ECDE3F765 /* Pods-Aruna-tvOS.debug.xcconfig */,
+				FF97422D24F94C86C3D3F2E131BB6A67 /* Pods-Aruna-tvOS.release.xcconfig */,
+			);
+			name = "Pods-Aruna-tvOS";
+			path = "Target Support Files/Pods-Aruna-tvOS";
+			sourceTree = "<group>";
+		};
+		78FA94D42E1F86329A67DF882CF98793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2BE725AFB17435718081E2B1F3CF7D /* Pods_Aruna.framework */,
+				DA0A5909EE9DD9245E33D07AA2CB99EB /* Pods_Aruna_tvOS.framework */,
+				E8804DE89F14BF6D20D87E237358C4B0 /* Pods_Aruna_tvOSTests.framework */,
+				CB3FB49FA1558340E1180E00A4534B26 /* Pods_ArunaTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88C42799811266A7F8206CDDD910FAFC /* Pods-Aruna-tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC7FCC1B9A6B5ED5840C5A9B7C34267E /* Pods-Aruna-tvOSTests.modulemap */,
+				CE1B3B9939B72BABD055F1F78FA63DAE /* Pods-Aruna-tvOSTests-acknowledgements.markdown */,
+				AA5E1011C52FCF0F6A3675325A7AA093 /* Pods-Aruna-tvOSTests-acknowledgements.plist */,
+				85866A936DB543AD311E6A264F32F9E8 /* Pods-Aruna-tvOSTests-dummy.m */,
+				29329DF05E886B9DB703DCC126CFCFB2 /* Pods-Aruna-tvOSTests-Info.plist */,
+				25D2BF67FB6F1637CB48AB60C377BC3E /* Pods-Aruna-tvOSTests-umbrella.h */,
+				8FADD150DAEF62418215AC1822847A76 /* Pods-Aruna-tvOSTests.debug.xcconfig */,
+				D06A58AE9A74F96FB8927826B96CC2D3 /* Pods-Aruna-tvOSTests.release.xcconfig */,
+			);
+			name = "Pods-Aruna-tvOSTests";
+			path = "Target Support Files/Pods-Aruna-tvOSTests";
+			sourceTree = "<group>";
+		};
+		8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A88CC71D6E55F0202A23277A509BCA0 /* iOS */,
+				71BF10D9671F60B91D333968CED34958 /* tvOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94182EE150168D8F091F83224D20C0A4 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				23977631E0E947775B0FF421D89FC310 /* Frameworks */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		9A88CC71D6E55F0202A23277A509BCA0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				80D50031945639C9CFCD3CBF24E18561 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9B7151692B2AC286B115FA8800335CA1 /* Crashes */ = {
+			isa = PBXGroup;
+			children = (
+				BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */,
+			);
+			name = Crashes;
+			sourceTree = "<group>";
+		};
+		BB344F108DF82A6C8E5EC1D35D0DE13C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CE7345C6137AF49A54827B4AEA2E17 /* AppCenterCrashes.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2F79BBE68CAC64203149AF75B3502BF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenterReactNativeShared";
+			sourceTree = "<group>";
+		};
+		C4BB3F5AC0A773C378962D449F7C1C4B /* Pods-ArunaTests */ = {
+			isa = PBXGroup;
+			children = (
+				84955AC306598E818B69DC862C740467 /* Pods-ArunaTests.modulemap */,
+				5D405155BD74FEBAED266CBB3CA0FB96 /* Pods-ArunaTests-acknowledgements.markdown */,
+				65ED8C8582165DFC676FF6A508BEE92B /* Pods-ArunaTests-acknowledgements.plist */,
+				0691C8A37B83EE91FBCF3294E1310510 /* Pods-ArunaTests-dummy.m */,
+				5D6C427C337DF70C3E43EE31CAEF43A2 /* Pods-ArunaTests-Info.plist */,
+				D2C3E7F54913F3BA31D7DFFB688C09D2 /* Pods-ArunaTests-umbrella.h */,
+				90A2D5726501A4BCDF52DF0B84864C00 /* Pods-ArunaTests.debug.xcconfig */,
+				1A7D2E055449D0F5C826F2CE30EE9DD0 /* Pods-ArunaTests.release.xcconfig */,
+			);
+			name = "Pods-ArunaTests";
+			path = "Target Support Files/Pods-ArunaTests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8910DE18F4068EE7F2F8E36E5101A369 /* Frameworks */,
+				EE373CD21EE89767163B4F9D8A04C324 /* Pods */,
+				78FA94D42E1F86329A67DF882CF98793 /* Products */,
+				3F634C3698148A96C6334CAD125A06CE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E2631FD0126E1F8A2EF339F5A433A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AppCenter";
+			sourceTree = "<group>";
+		};
+		ED7F0E7602AAB87E8282D7EE77A128F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				101086D48961A1F5D174F74008C809D8 /* AppCenterReactNativeShared.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE373CD21EE89767163B4F9D8A04C324 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0D3521F21C1BB5DCE82B8CAEF9692B /* AppCenter */,
+				1E40D94BB364328FBE96A84A9A48CC14 /* AppCenterReactNativeShared */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		365A8EFF4664C8578668669D0638DD6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE27F025C977A15FC82A2541E30A481F /* Pods-Aruna-tvOSTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36FFAB1E77280E28F5C9CCFA65996CA2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E8F3143537396B18C47A91948E38C1 /* Pods-Aruna-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09422B778FC042D3D4BB77F23F1B5EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6869A98A09EA927A80A1B09F1B24380 /* Pods-Aruna-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9ACD1D4357B9019E1DA0D35443391A9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				212DC7F0B9E00CC750ADF3AE1E0BDC29 /* Pods-ArunaTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BA089BF5F506C67784E0740D295EED8 /* Pods-Aruna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EE9CB9983EBD2B134C645B20A71F94 /* Build configuration list for PBXNativeTarget "Pods-Aruna" */;
+			buildPhases = (
+				36FFAB1E77280E28F5C9CCFA65996CA2 /* Headers */,
+				2B658F8CBD9EAD571BAE30EF161B73EC /* Sources */,
+				E1EF944E44E63BF78C917BFB03EE1EDB /* Frameworks */,
+				7719077B671E5541193924F1F05D4C96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				891A308B0D097DB988DE58D0D31C0081 /* PBXTargetDependency */,
+				F4DCDC2932E2062B5441CAB3ACEBFA69 /* PBXTargetDependency */,
+			);
+			name = "Pods-Aruna";
+			productName = "Pods-Aruna";
+			productReference = 9E2BE725AFB17435718081E2B1F3CF7D /* Pods_Aruna.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		890B4A81178ED94D2C477CEFAE9AF9E3 /* Pods-ArunaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E23BC12105B5C8244396FE04766AE14 /* Build configuration list for PBXNativeTarget "Pods-ArunaTests" */;
+			buildPhases = (
+				C9ACD1D4357B9019E1DA0D35443391A9 /* Headers */,
+				80523B0AA702AFAFEFB1DB9005D4161D /* Sources */,
+				F8D8C271EC44FFAC125A754439AD76E6 /* Frameworks */,
+				2B8B7DE55E7DD53A57C369BA27880075 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCC18DE09E403AF6B76824F5D9589006 /* PBXTargetDependency */,
+			);
+			name = "Pods-ArunaTests";
+			productName = "Pods-ArunaTests";
+			productReference = CB3FB49FA1558340E1180E00A4534B26 /* Pods_ArunaTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9DA8697A3C66C8DFD194FA5DB6068817 /* Pods-Aruna-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 757DB7AA78DE22CB426D2C08634E1E74 /* Build configuration list for PBXNativeTarget "Pods-Aruna-tvOS" */;
+			buildPhases = (
+				B09422B778FC042D3D4BB77F23F1B5EC /* Headers */,
+				1347E6782632A19594CEC9A9628AB70B /* Sources */,
+				403F9EB551F3FD0EA50F035548C8A37D /* Frameworks */,
+				71E8CA6069031E2936995249FF0ED308 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Aruna-tvOS";
+			productName = "Pods-Aruna-tvOS";
+			productReference = DA0A5909EE9DD9245E33D07AA2CB99EB /* Pods_Aruna_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD86089DC8E6C9D6AA5A8A6BD01B855D /* Pods-Aruna-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7718D7D59120FC33B2F1C8D4B7B3DF3D /* Build configuration list for PBXNativeTarget "Pods-Aruna-tvOSTests" */;
+			buildPhases = (
+				365A8EFF4664C8578668669D0638DD6C /* Headers */,
+				D3024062EEC8DA7A99BA53ACA84B6FB3 /* Sources */,
+				6B15B94599C3D24FAAAEC94562C33DE9 /* Frameworks */,
+				4BE7664CA2FF6A41D32269E7E0B9C82A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD11A5D10C4294C77C4850AC49BBDFF /* PBXTargetDependency */,
+			);
+			name = "Pods-Aruna-tvOSTests";
+			productName = "Pods-Aruna-tvOSTests";
+			productReference = E8804DE89F14BF6D20D87E237358C4B0 /* Pods_Aruna_tvOSTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 78FA94D42E1F86329A67DF882CF98793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */,
+				2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */,
+				6BA089BF5F506C67784E0740D295EED8 /* Pods-Aruna */,
+				9DA8697A3C66C8DFD194FA5DB6068817 /* Pods-Aruna-tvOS */,
+				AD86089DC8E6C9D6AA5A8A6BD01B855D /* Pods-Aruna-tvOSTests */,
+				890B4A81178ED94D2C477CEFAE9AF9E3 /* Pods-ArunaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B8B7DE55E7DD53A57C369BA27880075 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE7664CA2FF6A41D32269E7E0B9C82A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71E8CA6069031E2936995249FF0ED308 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7719077B671E5541193924F1F05D4C96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1347E6782632A19594CEC9A9628AB70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A45C4BCAE682680E66231E4684ABF53 /* Pods-Aruna-tvOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B658F8CBD9EAD571BAE30EF161B73EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D108C7E17E52D9879A39795FCF812FA0 /* Pods-Aruna-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80523B0AA702AFAFEFB1DB9005D4161D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58894D7A6F46CB4C34E7E6F195A76239 /* Pods-ArunaTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3024062EEC8DA7A99BA53ACA84B6FB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF29A78287F2664E599D90790EE6097 /* Pods-Aruna-tvOSTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0051E4214884EF5346A2A55966EC832B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = D96B09CB6F7CDF72F3099DD83AD5AB87 /* PBXContainerItemProxy */;
+		};
+		891A308B0D097DB988DE58D0D31C0081 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenter;
+			target = A3282A5B2437E609EEB85861D7ECE717 /* AppCenter */;
+			targetProxy = 40E56F4380013CC4C2FFA48934191554 /* PBXContainerItemProxy */;
+		};
+		DCC18DE09E403AF6B76824F5D9589006 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Aruna";
+			target = 6BA089BF5F506C67784E0740D295EED8 /* Pods-Aruna */;
+			targetProxy = EA50CF3DE0F09FC0559599B6451B8252 /* PBXContainerItemProxy */;
+		};
+		F4DCDC2932E2062B5441CAB3ACEBFA69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AppCenterReactNativeShared;
+			target = 2CD32458A161AF8E4BA58B4310701AB3 /* AppCenterReactNativeShared */;
+			targetProxy = 50451FA643A861C555AD95535787F177 /* PBXContainerItemProxy */;
+		};
+		FDD11A5D10C4294C77C4850AC49BBDFF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Aruna-tvOS";
+			target = 9DA8697A3C66C8DFD194FA5DB6068817 /* Pods-Aruna-tvOS */;
+			targetProxy = EB39F5E5F8AC5667AE061D14AF133072 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07AFC8E32A809344F64D7B54D25F2B8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 184230D4CD0288271A6F3FC46F38F5AB /* Pods-Aruna.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aruna/Pods-Aruna-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aruna/Pods-Aruna.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0955D465C2CA77BD19DD82F44D430543 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B64E5CB546731BEA9A61222ECDE3F765 /* Pods-Aruna-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aruna-tvOS/Pods-Aruna-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aruna-tvOS/Pods-Aruna-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DD90B593221377710F979C821542A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FADD150DAEF62418215AC1822847A76 /* Pods-Aruna-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aruna-tvOSTests/Pods-Aruna-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aruna-tvOSTests/Pods-Aruna-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		44DA8D30A185CF39FF38CACD51676CDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		599400FFFD0EA6B6AB877FC195B590F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A7D2E055449D0F5C826F2CE30EE9DD0 /* Pods-ArunaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunaTests/Pods-ArunaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunaTests/Pods-ArunaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68F07807C8D62F2D76C744A41F3D874D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		6F4D25CB9F599D775DBC451590213731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59CE2BED226D8BACCDFB3EEC78580EC1 /* AppCenter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		930B035B1F04B8D9273F50B7D89EA7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06A58AE9A74F96FB8927826B96CC2D3 /* Pods-Aruna-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aruna-tvOSTests/Pods-Aruna-tvOSTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aruna-tvOSTests/Pods-Aruna-tvOSTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9BA6F5A9FC4D860B030D75B99FA92F8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A320A4C30F80DBC8370BDC7B04DEE4A9 /* Pods-Aruna.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aruna/Pods-Aruna-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aruna/Pods-Aruna.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949CDF652086A792464DA9B3CE2C9FA /* AppCenterReactNativeShared.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		EDBEDD0F9BE13194DD25F1DC99FBBD0C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF97422D24F94C86C3D3F2E131BB6A67 /* Pods-Aruna-tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Aruna-tvOS/Pods-Aruna-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Aruna-tvOS/Pods-Aruna-tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F20531234CAF8DC84AF5779C0D52E2A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90A2D5726501A4BCDF52DF0B84864C00 /* Pods-ArunaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ArunaTests/Pods-ArunaTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ArunaTests/Pods-ArunaTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E23BC12105B5C8244396FE04766AE14 /* Build configuration list for PBXNativeTarget "Pods-ArunaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F20531234CAF8DC84AF5779C0D52E2A5 /* Debug */,
+				599400FFFD0EA6B6AB877FC195B590F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1ED6DABFEFD9C54EE38EDA3D2F7092C /* Debug */,
+				68F07807C8D62F2D76C744A41F3D874D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EE9CB9983EBD2B134C645B20A71F94 /* Build configuration list for PBXNativeTarget "Pods-Aruna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BA6F5A9FC4D860B030D75B99FA92F8D /* Debug */,
+				07AFC8E32A809344F64D7B54D25F2B8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		757DB7AA78DE22CB426D2C08634E1E74 /* Build configuration list for PBXNativeTarget "Pods-Aruna-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0955D465C2CA77BD19DD82F44D430543 /* Debug */,
+				EDBEDD0F9BE13194DD25F1DC99FBBD0C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7718D7D59120FC33B2F1C8D4B7B3DF3D /* Build configuration list for PBXNativeTarget "Pods-Aruna-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD90B593221377710F979C821542A41 /* Debug */,
+				930B035B1F04B8D9273F50B7D89EA7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AADDABC0FF92BF51AC88E6BD57DB25 /* Build configuration list for PBXAggregateTarget "AppCenterReactNativeShared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4939254D9B12C5F8E84CFE6C51D11AE /* Debug */,
+				44DA8D30A185CF39FF38CACD51676CDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0944D0DEFF9CDF0CBE6D4A41B195020 /* Build configuration list for PBXAggregateTarget "AppCenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F4D25CB9F599D775DBC451590213731 /* Debug */,
+				8A791558A6CAD52F6A29BE7CDFC70C4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

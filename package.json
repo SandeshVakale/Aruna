@@ -21,10 +21,16 @@
     "lint": "standard --verbose | snazzy",
     "lintdiff": "git diff --name-only --cached --relative | grep '\\.js$' | xargs standard | snazzy",
     "fixcode": "standard --fix",
-    "git-hook": "npm run lint -s && npm run test -s"
+    "git-hook": "npm run lint -s && npm run test -s",
+    "pack-secrets": "./secrets-scripts/pack-secrets.sh",
+    "unpack-secrets": "./secrets-scripts/unpack-secrets.sh",
+    "deploy": "./deploy.sh"
   },
   "dependencies": {
     "apisauce": "^0.14.2",
+    "appcenter": "^2.5.0",
+    "appcenter-analytics": "^2.5.0",
+    "appcenter-crashes": "^2.5.0",
     "format-json": "^1.0.3",
     "identity-obj-proxy": "^3.0.0",
     "lodash": "^4.17.4",
@@ -35,6 +41,7 @@
     "react": "16.0.0",
     "react-native": "0.50.4",
     "react-native-animatable": "^1.2.4",
+    "react-native-code-push": "^5.7.0",
     "react-native-config": "^0.10.0",
     "react-native-device-info": "0.11.0",
     "react-native-i18n": "1.0.0",
